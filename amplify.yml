@@ -6,11 +6,4 @@ frontend:
         - npm run build
   artifacts:
     files:
-        - location
-        - location
-    discard-paths: yes
-    baseDirectory: location
-  cache:
-    paths:
-        - path
-        - path
+        - src/index.html
