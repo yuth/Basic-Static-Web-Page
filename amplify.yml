@@ -6,6 +6,7 @@ frontend:
         - rm -rf /root/.nvm/default-packages
         - nvm install 15
         - yarn version
+        - which yarn
         - npm run build
         - which node
         - amplify --version
