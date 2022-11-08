@@ -4,6 +4,7 @@ frontend:
     build:
       commands:
         - npm run build
+        - amplify --version
   artifacts:
     files:
         - index.html
