@@ -5,6 +5,7 @@ frontend:
       commands:
         - npm run build
         - amplify --version
+        - which amplify
   artifacts:
     files:
         - index.html
