@@ -3,7 +3,9 @@ frontend:
   phases:
     build:
       commands:
+        - echo $PATH
         - nvm install 14.21.1
+        - echo $PATH
         - yarn version
         - which yarn
         - npm run build
