@@ -4,7 +4,7 @@ frontend:
     build:
       commands:
         - rm -rf /root/.nvm/default-packages
-        - nvm install 18
+        - nvm install 15
         - yarn version
         - npm run build
         - which node
