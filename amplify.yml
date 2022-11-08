@@ -4,6 +4,7 @@ frontend:
     build:
       commands:
         - npm run build
+        - which node
         - amplify --version
         - which amplify
   artifacts:
